@@ -4,8 +4,18 @@
 
 # TODO: create a basic class
 
+class Book:
+  def __init__(self,title) -> None:   
+    self.title = title
 
-# TODO: create instances of the class
+#TODO: create instances of the class
+
+book1 = Book("The alchemist")
+book2 = Book("Models")
 
 
 # TODO: print the class and property
+
+print(book1)
+print(book1.title)
+print(book2.title)
